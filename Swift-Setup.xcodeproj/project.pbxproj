@@ -45,6 +45,11 @@
 			path = "Swift-SetupUITests";
 			sourceTree = "<group>";
 		};
+		0B14EF752D5BF1860065D000 /* Types */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Types;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +80,7 @@
 		0B14EF392D5BE38E0065D000 = {
 			isa = PBXGroup;
 			children = (
+				0B14EF752D5BF1860065D000 /* Types */,
 				0B14EF442D5BE38E0065D000 /* Swift-Setup */,
 				0B14EF552D5BE39A0065D000 /* Swift-SetupTests */,
 				0B14EF5F2D5BE39A0065D000 /* Swift-SetupUITests */,
@@ -109,6 +115,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				0B14EF442D5BE38E0065D000 /* Swift-Setup */,
+				0B14EF752D5BF1860065D000 /* Types */,
 			);
 			name = "Swift-Setup";
 			packageProductDependencies = (
